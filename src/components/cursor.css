@@ -1,0 +1,21 @@
+/* .cursor{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: 1px solid white;
+    position: fixed;
+    z-index: 999;
+} */
+
+.cursor {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 20px;  /* Adjust size as needed */
+    height: 20px; /* Adjust size as needed */
+    background-color: rgba(0, 187, 255, 0.404); /* Adjust color as needed */
+    border-radius: 50%;
+    pointer-events: none; /* Ensure cursor does not interfere with other elements */
+    z-index: 9999; /* Ensure cursor is above all other elements */
+  }
+  
