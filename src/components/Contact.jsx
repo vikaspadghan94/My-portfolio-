@@ -31,7 +31,7 @@ const Contact = () => {
     e.preventDefault();
 
     emailjs
-      .sendForm('service_u8vuw2r', 'template_i5yf915', formRef.current, {
+      .sendForm(' ', 'template_i5yf915', formRef.current, {
         publicKey: 'GzugADrhgOZlLRhEI',
       })
       .then(
@@ -56,7 +56,7 @@ const Contact = () => {
         <motion.h1 variants={variants}>Lets work together</motion.h1>
         <motion.div className="item" variants={variants}>
           <h2>Email</h2>
-          <span>hey@reacr.dev</span>
+          <span>padghan826@gmail.com</span>
         </motion.div>
         <div className="item">
           <h2>Address:</h2>

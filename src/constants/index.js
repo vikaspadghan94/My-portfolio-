@@ -6,31 +6,33 @@ import project5 from "../assets/projects/project-5.jpg";
 import project6 from "../assets/projects/project-6.png";
 import project7 from "../assets/projects/project-7.jpg";
 
-export const HERO_CONTENT = `I am a passionate full stack developer with a knack for crafting robust and scalable web applications. With 2+ years of hands-on experience, I have honed my skills in front-end technologies like React and Next.js, as well as back-end technologies like Node.js, Express.js, MySQL, PostgreSQL, and MongoDB. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
+export const HERO_CONTENT = `I am a highly motivated software engineer with around 3 years of experience in software development and a strong passion for data analysis. Skilled in leveraging tools like SQL, Python, Tableau, Power BI,Version Control, and Excel to extract insights, streamline processes, and drive data-informed decision-making. I bring a unique blend of technical expertise and analytical acumen, developed through hands-on projects and professional experience. My goal is to transition into a data analyst role where I can apply my problem-solving skills and technical proficiency to analyze complex datasets and deliver actionable insights for business growth.`;
 
-export const ABOUT_TEXT = `I am a dedicated and versatile full stack developer with a passion for creating efficient and user-friendly web applications. With 2+ years of professional experience, I have worked with a variety of technologies, including React, Javascript, Express.js, Node.js, MySQL, PostgreSQL, and MongoDB. My journey in web development began with a deep curiosity for how things work, and it has evolved into a career where I continuously strive to learn and adapt to new challenges. I thrive in collaborative environments and enjoy solving complex problems to deliver high-quality solutions. Outside of coding, I enjoy staying active, exploring new technologies, and contributing to open-source projects.`;
+export const ABOUT_TEXT = `I am a dedicated software engineer with 3 years of experience, now transitioning into the exciting field of data analysis. My expertise spans across leveraging tools like SQL, Python, Excel, Tableau, and Power BI to turn raw data into actionable insights. My background in software development has honed my problem-solving skills and attention to detail, which I now apply to analyzing complex datasets and visualizing meaningful patterns.
+Passionate about data storytelling, I aim to help businesses make informed decisions by uncovering trends and optimizing performance through data-driven strategies. I am committed to continuous learning and look forward to applying my technical and analytical skills in impactful projects.`;
+
 
 export const EXPERIENCES = [
   {
-    year: "2023 - Present",
+    year: "2022 - Present",
     role: "Software Engineer",
     company: "Datacapten Technology Pvt Ltd",
-    description: `Designed and implemented scalable backend services and APIs. Developed responsive front-end interfaces, ensuring cross-browser compatibility. Mentored junior developers and collaborated with cross-functional teams to deliver high-quality software solutions.`,
-    technologies: ["Javascript", "React.js", "Node.js", "Express.js", "MySql", "AWS", "mongoDB"],
-  },
-  {
-    year: "2022 - 2023",
-    role: "Software Engineer",
-    company: "Datacapten Technology",
-    description: `Designed and maintained databases using MySQL. Created and optimized SQL queries, managed data migrations, and ensured data integrity. Collaborated with development teams to implement efficient data storage solutions.`,
-    technologies: ["mySQL", "database design", "data migration tools", "MongoDb Atlas"],
+    description: `As a Data Analyst in a US-based digital marketing company, I played a pivotal role in optimizing marketing campaigns through data-driven insights. I analyzed large datasets to track campaign performance, created detailed reports, and provided actionable recommendations to enhance engagement and ROI. My responsibilities included data cleaning, visualization, and segmentation, leveraging tools like SQL, Excel, and Tableau to support decision-making and drive business growth`,
+    technologies: ["Microsoft Excel", "VBA", "Matlab", "Python", "MySql", "AWS", "mongoDB", "Power BI"],
   },
   {
     year: "2021 - 2022",
-    role: "Frontend Developer intern",
+    role: "Software Engineer",
+    company: "SSP Technology Pvt Ltd",
+    description: `I specialize in transforming raw data into actionable insights to support strategic decision-making. Leveraging my expertise in data cleansing, modeling, and visualization, I help businesses uncover hidden patterns and optimize their performance.`,
+    technologies: ["mySQL", "Microsoft Excel", "Tableau", "Pivot-Table", "Numpy"],
+  },
+  {
+    year: " 3 Month , 2021",
+    role: "Data Insights Analyst intern",
     company: "Prodigy InfoTech",
-    description: `Developed and maintained web applications using React, JavaScript, CSS and Tailwind CSS. Collaborated with designers and backend developers to create responsive, user-friendly interfaces. Implemented features, fixed bugs, and optimized performance..`,
-    technologies: ["Javascript", "React", "HTML", "CSS"],
+    description: `Data Insights Analyst Intern, I assisted in analyzing large datasets to uncover valuable insights and trends that informed business decisions. I utilized tools like SQL, Excel, and Tableau to clean, model, and visualize data, supporting teams in developing data-driven strategies.`,
+    technologies: ["Microsoft Excel", "SQL", "Power BI", "Pivot-Table"],
   },
   
 ];
@@ -51,7 +53,7 @@ export const PROJECTS = [
     technologies: ["HTML", "CSS", "Angular", "Firebase"],
   },
   {
-    title: "Portfolio Website",
+    title: "Personal Portfolio Website",
     image: project3,
     description:
       "A personal portfolio website showcasing projects, skills, and contact information.",
@@ -88,7 +90,7 @@ export const PROJECTS = [
 ];
 
 export const CONTACT = {
-  address: "Pune , Maharashtra , 411001",
+  address: "Pune , Maharashtra , 411052",
   phoneNo: "+91 9764663313",
   email: "padghan826@gmail.com",
 };
